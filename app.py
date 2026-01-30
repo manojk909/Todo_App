@@ -20,6 +20,9 @@ class Todo(db.Model):
 
 @app.route("/")
 def hello_world():
+    todo = Todo(title="first todo", desc="Start investing in Stock market")
+    db.session.add(todo)
+    db.session.commit()
     return render_template('index.html')
     # return "<p>Hello, World!</p>"
 
