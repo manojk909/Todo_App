@@ -34,17 +34,30 @@ This app allows users to **add, view, update, and delete TODO items**, with auto
 
 Flask/
 │
-├── app.py              # Main Flask application
-├── task.db             # SQLite database (auto-generated)
-├── requirements.txt    # Python dependencies
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│   └── update.html
+├── app.py
+├── Procfile
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── env/ # Virtual environment (ignored by git)
+├── pycache/ # Python cache files
+│
+├── instance/
+│ └── task.db # SQLite database
+│
 ├── static/
-│   └── style.css
+│ ├── css/
+│ │ └── style.css
+│ └── js/
+│ └── test.js
+│
+├── templates/
+│ ├── base.html
+│ ├── index.html
+│ └── update.html
+│
 └── README.md
-
 ````
 
 ---
@@ -59,7 +72,7 @@ cd Flask
 
 ---
 
-### 2️⃣ Create and activate virtual environment
+### 2️⃣ Create and activate a virtual environment
 
 ```bash
 python -m venv env
@@ -127,7 +140,8 @@ https://<your-codespace-name>-8000.app.github.dev/
 
 ## 📸 Screenshot
 
-*Add a screenshot of the app UI here (optional but recommended).*
+<img width="1918" height="851" alt="image" src="https://github.com/user-attachments/assets/6788bcaa-3bcf-43ed-8bcc-7216a3334664" />
+
 
 ---
 
@@ -150,37 +164,8 @@ https://<your-codespace-name>-8000.app.github.dev/
 * Search & filter functionality
 * Pagination
 * REST API version
-* Deployment to cloud platforms
-
----
-
-## 👤 Author
-
-**MK**
-Computer Science Student
-Built as a learning project using Flask 🚀
-
 ---
 
 ## 📄 License
 
 This project is open-source and free to use for learning and educational purposes.
-
-```
-
----
-
-### ✅ This README is:
-- Clean
-- Professional
-- Resume-ready
-- Suitable for GitHub
-
-If you want next:
-- **Short resume description**
-- **Project explanation for viva**
-- **REST API version**
-- **Deployment guide**
-
-Just say the word 👌
-```
