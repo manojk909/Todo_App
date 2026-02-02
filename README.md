@@ -140,7 +140,7 @@ https://<your-codespace-name>-8000.app.github.dev/
 
 ## 📸 Screenshot
 
-<img width="1918" height="851" alt="image" src="https://github.com/user-attachments/assets/6788bcaa-3bcf-43ed-8bcc-7216a3334664" />
+<img width="1919" height="853" alt="image" src="https://github.com/user-attachments/assets/7bc5b6a2-519e-4bc9-9549-27d0cbc813fe" />
 
 
 ---
